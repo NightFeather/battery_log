@@ -1,0 +1,6 @@
+[Unit]
+Description=Logging battery charge
+
+[Timer]
+Unit=battery_log.service
+OnUnitInactiveSec=5

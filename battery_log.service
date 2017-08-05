@@ -1,0 +1,6 @@
+[Unit]
+Description=Logging battery charge for chart
+
+[Service]
+Type=oneshot
+ExecStart=/usr/lib/systemd/system/scripts/battery_log

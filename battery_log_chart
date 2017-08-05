@@ -1,0 +1,6 @@
+#!/usr/bin/gnuplot -pc
+
+unset xtics
+set xdata time
+set timefmt "%s"
+plot "/var/lib/battery_log/history" using 1:($2 / $3 * 100) notitle smooth sbezier with lines
