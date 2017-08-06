@@ -1,14 +1,14 @@
 
 pkgname='battery_log'
-pkgver='0.0.1'
-pkgrel='3'
+pkgver='0.0.2'
+pkgrel='1'
 arch=('any')
 depends=('systemd' 'coreutils')
 optdepends=('gnuplot')
 source=('battery_log.sh' 'battery_log.service' 'battery_log.timer' 'battery_log_chart')
 md5sums=('9d3271d1d593d66d6339fb46fa58422c'
          '3380646272c4591bdf33843280bc2343'
-         '36c9c01a6c930582edf2d90f453d4fbd'
+         '6654b380026d835d6c3ceccdff6cec9b'
          '3a379a3d304c3a311f1ad8cb652597de')
 
 package() {

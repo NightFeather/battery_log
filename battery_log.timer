@@ -3,4 +3,5 @@ Description=Logging battery charge
 
 [Timer]
 Unit=battery_log.service
+OnBootSec=10
 OnUnitInactiveSec=5
