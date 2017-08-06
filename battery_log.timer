@@ -5,3 +5,6 @@ Description=Logging battery charge
 Unit=battery_log.service
 OnBootSec=10
 OnUnitInactiveSec=5
+
+[Install]
+WantedBy=timers.target
